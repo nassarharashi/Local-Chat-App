@@ -8,7 +8,7 @@ import streamlit as st
 st.set_page_config(page_title="Local Chat", page_icon="💬", layout="centered")
 
 st.title("Local Chat")
-st.caption("Chat demo using Streamlit session state. No external APIs or LLMs.")
+
 
 
 def generate_mock_reply(user_text: str) -> str:
